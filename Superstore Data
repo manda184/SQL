@@ -30,3 +30,8 @@ VALUES
 SELECT AVG(price), 'Kitchen_Supplies'
 FROM superstore
 Group BY 'Kitchen_Supplies'
+
+#show the average price for each item
+SELECT AVG(price), Item_name
+FROM superstore
+Group BY Item_name
